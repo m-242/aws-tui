@@ -3,7 +3,7 @@ package model
 import (
 	"context"
 	"log"
-	"github.com/rfc2119/aws-tui/common"
+	"github.com/m-242/aws-tui/common"
 	"strings"
 	"time"
 

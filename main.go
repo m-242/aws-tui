@@ -4,8 +4,8 @@ import (
 	// "context"        // TODO
 	// "runtime/debug"
 	"fmt"
-	"github.com/rfc2119/aws-tui/common"
-	"github.com/rfc2119/aws-tui/ui"
+	"github.com/m-242/aws-tui/common"
+	"github.com/m-242/aws-tui/ui"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/aws/external"
@@ -14,7 +14,7 @@ import (
 
 const (
 	MAIN_HELP_MSG = `
-Welcome to the unofficial AWS Terminal Interface. This is a very much work-in-progress and I appreciate your feedback, issues, code improvements, ... etc. Please submit them at https://github.com/rfc2119/aws-tui
+Welcome to the unofficial AWS Terminal Interface. This is a very much work-in-progress and I appreciate your feedback, issues, code improvements, ... etc. Please submit them at https://github.com/m-242/aws-tui
 
 Common keys found across all windows:
 

@@ -2,7 +2,7 @@ package ui
 
 import (
 
-	"github.com/rfc2119/aws-tui/model"
+	"github.com/m-242/aws-tui/model"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/rivo/tview"

@@ -5,7 +5,7 @@ import (
     "context"
     "log"
 
-	"github.com/rfc2119/aws-tui/common"
+	"github.com/m-242/aws-tui/common"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/iam"
 )
