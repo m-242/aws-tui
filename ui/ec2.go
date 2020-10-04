@@ -2,9 +2,9 @@ package ui
 
 import (
 	"fmt"
-	"log"
 	"github.com/m-242/aws-tui/common"
 	"github.com/m-242/aws-tui/model"
+	"log"
 	"strconv"
 	"strings"
 	"time"
@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/ec2" // TODO: should probably remove this
 	"github.com/gdamore/tcell"
-	"github.com/m-242/simple-state-machine"
+	"github.com/rfc2119/simple-state-machine"
 	"github.com/rivo/tview"
 	// "golang.org/x/crypto/ssh"
 )
