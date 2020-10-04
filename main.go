@@ -8,7 +8,7 @@ import (
 	"github.com/m-242/aws-tui/ui"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/external"
+	"github.com/aws/aws-sdk-go/aws/external"
 	"github.com/rivo/tview"
 )
 
@@ -59,8 +59,8 @@ func main() {
 	// UI elements
 	mainContainer := tview.NewFlex() // Flex container for the status bar and application pages/window
 	frontPage := ui.NewEFlex(pages)  // The front page which holds the info and tree view
-	info := tview.NewTextView()	// The side bar informational view
-	tree := tview.NewTreeView()	// The menu holding all available services
+	info := tview.NewTextView()      // The side bar informational view
+	tree := tview.NewTreeView()      // The menu holding all available services
 
 	// Filling the tree with initial values
 	rootNode := tview.NewTreeNode("Services")

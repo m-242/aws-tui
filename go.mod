@@ -1,4 +1,4 @@
-module github.com/rfc2119/aws-tui
+module github.com/m-242/aws-tui
 
 go 1.13
 
